@@ -269,6 +269,6 @@ class SophieLiveClient:
                 role="system",
                 parts=[types.Part(text=instruction)]
             )],
-            turn_complete=True
+            turn_complete=False
         )
         print("--- Persona Update Sent Successfully ---")
